@@ -8,6 +8,7 @@ composer install
 
 2)
  -- Configurer db_user et db_password dan .env --
+
 php bin/console doctrine:database:create
 
 3)
@@ -18,8 +19,14 @@ symfony server:start
 
 Routes: 
 
+-- Pour la liste des routes à partir de API Platform -- 
+
 127.0.0.1:8000/api
+
 **************
+
+-- Sur Postman --
+
 Entities: 
 POST : 127.0.0.1:8000/api/entities
 
